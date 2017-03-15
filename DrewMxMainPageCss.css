@@ -1,16 +1,12 @@
 img {
-	background-color: black;
-	border-style: ridge;
-	border-color: #41115B;
-	border-radius: 15px;
-
-
+	background-color: #008060;
+	margin: auto auto 20px 425px;
 }
 
 body {
-	background-color: black;
-	color: #572689;
-	font-size: 105%;
+	background-color: #008060;
+	font-size: 120%;
+	
 }
 
 div#upperleft {
@@ -20,8 +16,9 @@ div#upperleft {
 	width: 300px;
 	position: absolute;
 	text-align: center;
-	left: 23em;
+	left: 20em;
 	right: 23;
+
 
 }
 
@@ -32,32 +29,39 @@ div#upperright {
 	width: 300px;
 	position: absolute;
 	text-align: center;
-	left: 47em;
+	left: 43em;
 	right: 47em;
+
 }
-nav {	
+nav {
+	
 	width: 200px;
-	height: 150px;
+	height: 170px;
 	margin: 5px;
 	position: absolute;
-	border-style: outset;
-	border-color: #572689;
+
 }
 
 aside {
 	width: 200px;
-	height: 150px;
+	height: 175px;
 	margin: 200px 5px 5px 5px;
 	position: absolute;
-	border-style: outset;
-	border-color: #572689;
+
 }
 
 h3{
 	text-decoration: underline;
 	text-align: center;
-	text-shadow: 0px 0px 15px #1F6D9D, 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+	text-shadow: 1px 1px 3px purple;
+}
 
+div, nav, aside{
+	border-radius: 15px;
+	background-color: #c2c2a3;
+	border-style: solid;
+	border-color: #572689;
+	box-shadow: 5px 5px 5px
 }
 
 
