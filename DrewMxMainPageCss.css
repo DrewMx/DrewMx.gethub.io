@@ -21,7 +21,7 @@ div {
 	width: 50%;
 	height: 200px;
 	text-align: center;
-	padding: 2px;	
+	padding: 5px;	
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
@@ -93,10 +93,44 @@ div, nav, aside{
 	border-style: solid;
 	border-color: #572689;
 	box-shadow: 5px 5px 5px;
-	display: inline-block;
-	
+	display: inline-block;	
+}
+@media screen and (max-width: 550px) {
+	header, body, div, nav, aside, img#reg {
+	font-size: 90%;
+}
+img#reg {
+	display: none;
+}
+
+img#mmm {
+	display: block;
+	margin: auto;
+}
+
+nav, aside{
+	width: 35%;
+	height: 100px;
+	padding: 2px;
+	float: left;
 	
 }
+nav{
+	margin: 3px 25px 10px 30px;	
+}
+
+aside {
+	margin: 3px 0px 10px 30px;
+}
+
+div{
+	margin: 10px;
+	padding: 5px;
+	height: 100px;
+	width: 75%;
+}
+	
+    }
 
 
 
