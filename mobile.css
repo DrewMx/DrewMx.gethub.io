@@ -1,0 +1,11 @@
+nav, aside, div {
+	border: none;
+}
+header, body, div, nav, aside, img {
+	background-color: white;
+	box-shadow: 0px 0px 0px;
+	float: left;
+	width: 0px;
+	height:0px;
+	margin: 20px;
+}
