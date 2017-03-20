@@ -1,11 +1,33 @@
-nav, aside, div {
-	border: none;
+header, body, div, nav, aside, img#reg {
+	font-size: 90%;
 }
-header, body, div, nav, aside, img {
-	background-color: white;
-	box-shadow: 0px 0px 0px;
+img#reg {
+	display: none;
+}
+
+img#mmm {
+	display: block;
+	margin: auto;
+}
+
+nav, aside{
+	width: 35%;
+	height: 100px;
+	padding: 2px;
 	float: left;
-	width: 0px;
-	height:0px;
-	margin: 20px;
+	
+}
+nav{
+	margin: 3px 25px 10px 30px;	
+}
+
+aside {
+	margin: 3px 0px 10px 30px;
+}
+
+div{
+	margin: 10px;
+	padding: 5px;
+	height: 100px;
+	width: 75%;
 }

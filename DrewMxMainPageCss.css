@@ -1,7 +1,9 @@
 img {
-	background-color: #008060;
+	background-color: #008060;	
+}
 
-	
+img#mmm {
+	display: none;
 }
 
 header {
