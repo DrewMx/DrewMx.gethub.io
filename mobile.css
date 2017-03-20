@@ -1,6 +1,4 @@
-@media only screen and (max-device-width: 550px){
-	
-	header, body, div, nav, aside, img#reg {
+header, body, div, nav, aside, img#reg {
 	font-size: 90%;
 }
 img#reg {
@@ -32,5 +30,4 @@ div{
 	padding: 5px;
 	height: 100px;
 	width: 75%;
-}
 }
