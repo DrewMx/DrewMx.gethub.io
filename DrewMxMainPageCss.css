@@ -14,18 +14,7 @@ header {
 body {
 	background-color: #008060;
 	font-size: 120%;
-	text-align: center;
-	
-}
-
-
-
-div#upperleft {
-
-}
-
-div#upperright {
-	
+	text-align: center;	
 }
 
 div {
@@ -33,11 +22,9 @@ div {
 	height: 200px;
 	text-align: center;
 	padding: 2px;	
-	margin: auto;
-	
-
-
-
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
 }
 nav, aside{
 	width: 135px;
