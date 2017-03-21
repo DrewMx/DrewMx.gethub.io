@@ -95,7 +95,8 @@ div, nav, aside{
 	box-shadow: 5px 5px 5px;
 	display: inline-block;	
 }
-@media screen and (max-width: 550px) {
+@media only screen and (max-device-width: 550px) {	
+	
 	header, body, div, nav, aside, img#reg {
 	font-size: 90%;
 }
@@ -129,8 +130,7 @@ div{
 	height: 100px;
 	width: 75%;
 }
-	
-    }
+}
 
 
 
