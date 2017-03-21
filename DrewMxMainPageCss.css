@@ -1,5 +1,7 @@
 img {
-	background-color: #008060;	
+	/*background-color: #383838;*/
+
+
 }
 
 img#mmm {
@@ -12,7 +14,9 @@ header {
 }
 
 body {
-	background-color: #008060;
+	background-color: #383838;
+	background: linear-gradient(to bottom right, #383838, #383838, #213E42, #1E4E54, #157480);
+	/*background: radial-gradient(Ellipse, #383838, #383838, #383838, #157480);*/
 	font-size: 120%;
 	text-align: center;	
 }
