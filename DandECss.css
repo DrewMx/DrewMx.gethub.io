@@ -1,0 +1,13 @@
+body{
+	background-image: linear-gradient(to right, #BA55D3, #4B0082, black);
+}
+
+h1{
+	text-align: center;
+	color: purple;
+}
+
+p{
+	text-align: center;
+	width: 100%;
+}
