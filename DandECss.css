@@ -1,13 +1,77 @@
 body{
-	background-image: linear-gradient(to right, #BA55D3, #4B0082, black);
+	background-image: url("bpbwave.jpg");
+	background-size: auto; 
 }
 
 h1{
 	text-align: center;
-	color: purple;
+
+	
+}
+.display-3{
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+	margin: 15px;
+
 }
 
 p{
 	text-align: center;
 	width: 100%;
+
+}
+
+p, h1, h3, body, .jumbotron {
+	font-family: "footlight MT light", "Times New Roman", "Times", "serif";
+
+}
+
+.para{
+	background-color: rgba(53, 53, 53, 0.9);
+	font-size: 200%;
+	box-shadow: 1px 1px 15px black;
+	color: white;
+	margin: 10px;
+
+}
+img#big{
+	color-interpolation-filters: 
+    max-width: 100%;
+    height: auto;
+    padding: 11px;
+}
+img#small{
+	display: none;
+}
+.amazon{
+	background-color: rgba(53, 53, 53, 0.9); 
+	margin: 0px 30px 50px 30px;
+	border-radius: 15px;
+	font-size: 200%;
+	box-shadow: 1px 1px 15px black;
+}
+
+
+a:link {
+    color: #D642E5;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: #D642E5;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    color: #24C4EF;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #32E758;
+    text-decoration: underline;
 }
