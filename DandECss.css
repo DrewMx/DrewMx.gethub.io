@@ -2,17 +2,23 @@ body{
 	background-image: url("bpbwave.jpg");
 	background-size: auto; 
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 h1{
 	text-align: center;
 
+
 	
 }
 .display-3{
-	text-align: center;
+
 	text-decoration: underline;
 	color: white;
-	margin: 15px;
+
+
 
 }
 
@@ -27,31 +33,37 @@ p, h1, h3, body, .jumbotron {
 
 }
 
-.para{
+.paraLeft{
 	background-color: rgba(53, 53, 53, 0.9);
-	font-size: 200%;
+	font-size: 185%;
 	box-shadow: 1px 1px 15px black;
 	color: white;
-	margin: 10px;
-
-}
-img#big{
-	color-interpolation-filters: 
-    max-width: 100%;
-    height: auto;
-    padding: 11px;
-}
-img#small{
-	display: none;
-}
-.amazon{
-	background-color: rgba(53, 53, 53, 0.9); 
-	margin: 0px 30px 50px 30px;
+	margin-top: 20px;
+	margin-left: 18px;
+	margin-bottom: 10px;
+	margin-right: 30px;
 	border-radius: 15px;
-	font-size: 200%;
-	box-shadow: 1px 1px 15px black;
+	padding: 5px;
 }
 
+.paraRight{
+	background-color: rgba(53, 53, 53, 0.9);
+	font-size: 185%;
+	box-shadow: 1px 1px 15px black;
+	color: white;
+	margin-top: 20px;
+	margin-right: 20px;	
+	margin-bottom: 20px;
+	margin-left: 30px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+img#big{
+    width: 50%;
+    height: auto;
+    padding: 18px;
+}
 
 a:link {
     color: #D642E5;
